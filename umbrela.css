@@ -1,0 +1,60 @@
+header{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+header img{
+    width: 150px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+    
+}
+Li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.Section-1{
+    background-color: black;
+    padding: 140px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 30px; /*Espaçamento entre as divs*/
+}
+.div-1 img {
+    width: 300px;
+}
+.div-2 p{
+    color: #ffdc68;
+    font-size: 30px;
+    margin-left: 50px; /*Margem de esquerda-espaçamento*/
+}
+/* texto destaque da section-01 */
+.span-1{
+    color: #910142;/* cor da letra so span*/
+    font-size: 40px;/*tamanho da letra span*/
+}
+.Section-2{
+    background-color: #660022;
+    padding: 140px;
+    flex-direction: row;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+
+}
+.div-3 i{
+    align-items: center;
+}
+.Section-2 p{
+    font-size: 20px;
+}
