@@ -44,17 +44,32 @@ Li a{
     font-size: 40px;/*tamanho da letra span*/
 }
 .Section-2{
-    background-color: #660022;
-    padding: 140px;
-    flex-direction: row;
+    background-color: #000000;
+    padding: 120px;
+    flex-direction: column;
     gap: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
-.div-3 i{
+
+.div-paragrafo p{
+    font-size: 30px;
+    color: white;
     align-items: center;
+    text-align: center;
+    
 }
-.Section-2 p{
-    font-size: 20px;
+.fa-brands{
+    font-size: 50px;
+    color: #f0b300;
+    gap: 50px;
 }
+.Section-2 h1{
+    color: yellow;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+
