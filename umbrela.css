@@ -91,7 +91,7 @@ Li a{
 }
 .Section-3{
     background-color: #000000;
-    padding: 300px;
+    padding: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,6 +111,33 @@ Li a{
 }
 fa-github{
     color: #000000;
+}
+.Section-4{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 20px;
+}
+.Caixa-1{
+    background-color: #ffbc11;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+.Caixa-2{
+    background-color: #ffffff;
+    padding: 120px;
+    height: 12px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Imagens/u_6wypl65os8-spider-7739559_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
