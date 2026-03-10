@@ -1,61 +1,75 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
 
-header{
+header {
     background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
 }
-header img{
+
+header img {
     width: 150px;
 }
-header h1{
+
+header h1 {
     color: rgb(255, 255, 255);
     flex-direction: column;
     text-transform: uppercase;
     text-align: center;
 }
-ul{
+
+ul {
     display: flex;
     gap: 20px;
 }
-li{
+
+li {
     list-style: none;
-    
+
 }
-Li a{
+
+Li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
-.Section-1{
+
+.Section-1 {
     background-color: black;
     padding: 140px;
-    display: flex ;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    gap: 30px; /*Espaçamento entre as divs*/
+    gap: 30px;
+    /*Espaçamento entre as divs*/
 }
+
 .div-1 img {
     width: 300px;
 }
-.div-2 p{
-    color:white;
+
+.div-2 p {
+    color: white;
     font-size: 30px;
-    margin-left: 50px; /*Margem de esquerda-espaçamento*/
+    margin-left: 50px;
+    /*Margem de esquerda-espaçamento*/
 }
+
 /* texto destaque da section-01 */
-.span-1{
-    color: #910142;/* cor da letra so span*/
-    font-size: 40px;/*tamanho da letra span*/
+.span-1 {
+    color: #910142;
+    /* cor da letra so span*/
+    font-size: 40px;
+    /*tamanho da letra span*/
 }
-.Section-2{
+
+.Section-2 {
     background-color: #000000;
     padding: 120px;
     flex-direction: column;
@@ -67,29 +81,32 @@ Li a{
 
 }
 
-.div-paragrafo p{
+.div-paragrafo p {
     font-size: 30px;
     color: white;
     align-items: center;
     text-align: center;
-    
+
 }
-.fa-brands{
+
+.fa-brands {
     font-size: 50px;
     color: #ffffff;
     gap: 50px;
 
 }
-.div-paragrafo h2{
+
+.div-paragrafo h2 {
     color: rgb(172, 35, 35);
-    font-size: 50px ;
+    font-size: 50px;
     gap: 10px;
     margin-bottom: 20px;
     flex-direction: column;
     text-transform: uppercase;
     text-align: center;
 }
-.Section-3{
+
+.Section-3 {
     background-color: #000000;
     padding: 200px;
     display: flex;
@@ -100,44 +117,123 @@ Li a{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+
 }
-.Section-3 button{
+
+.Section-3 button {
     width: 400px;
     padding: 10px;
     font-size: 30px;
     color: #ffffff;
     background-color: #000000;
 }
-fa-github{
-    color: #000000;
+
+.fa-github {
+    font-size: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-.Section-4{
+
+.Section-4 {
     background-color: #000000;
     display: flex;
+    /*Deixando as div lado a lado*/
     align-items: center;
+    /*Alimhamento vertical*/
+    justify-content: space-evenly;
+    /*Alimhamento horizontal*/
     padding: 100px;
-    gap: 20px;
+    /*Preenchimento interno das div*/
+    gap: 30px;
 }
-.Caixa-1{
+
+.Caixa-1 h3 {
+    font-size: 25px;
+    /*tamanho de letra */
+    text-transform: uppercase;
+    /*letra em caixa alta*/
+    margin-top: 30px;
+    /*espaçamento superior*/
+}
+
+.Caixa-1 p {
+    font-size: 20px;/* tamanho da letra*/
+    font-weight: 900;/*peso da fonte*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.fa-star , .fa-star-half{
+    font-size: 25px;
+    color: #000000;
+}
+
+/*Estikização div-2*/
+.Caixa-2 {
+    background-image: url(Imagens/u_6wypl65os8-spider-7739559_1920.jpg);
+    /*imagem de fundo da div 2*/
+    background-position: center;
+    /*posicionamento img*/
+    background-repeat: no-repeat;
+    /*desativando a repetição*/
+    background-size: cover;
+    /* preenchimento completo img*/
+}
+
+.Caixa-3 p{
+    font-size: 20px;/* tamanho da letra*/
+    font-weight: 900;/*peso da fonte*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.fa-github {
+    background-color: #000000;
+}
+
+.Section-4 div {
+    width: 300px;
+    /*largura da caixa*/
+    height: 300px;
+    /*altura da caixa*/
     background-color: #ffbc11;
-    width: 200px;
-    padding: 20px;
+    padding: 15px;
+    /*Preenchimento interno*/
     text-align: center;
+    /*alinhamento do texto*/
 }
-.Caixa-2{
-    background-color: #ffffff;
-    padding: 120px;
-    height: 12px;
-    gap: 20px;
-    display: flex;
+.Section-4 button{
+    padding: 7px;
+    background-color: #000000;
+    color: #ffffff;
+    width: 130px;
+    border: none;
+}
+
+footer{
+    background: #000000;
+    padding: 80px;
+    color: #ffffff;
+    font-size: 30px;
     align-items: center;
     justify-content: center;
-    background-image: url(Imagens/u_6wypl65os8-spider-7739559_1920.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    flex-direction: column;
 }
 
-
+footer img{
+    width: 300px;
+}
+footer .fa-brands{
+    color: #ffbc11;
+    font-size: 50px;
+    margin-top: 50px;
+}
+ 
+.Caixa-paragrafos{
+    text-align: center;
+}
+.Caixa-icon{
+    text-align: center;
+}
