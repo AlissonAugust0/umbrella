@@ -1,6 +1,8 @@
 * {
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth;
+    list-style: none;
 }
 
 
@@ -9,6 +11,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
 
 }
 
@@ -126,6 +132,13 @@ Li a {
     font-size: 30px;
     color: #ffffff;
     background-color: #000000;
+    box-shadow: 20px 20px 30px white;
+    
+}
+
+.Section-3 button:hover{
+    box-shadow: 20px 20px 30px red;
+    transition: 0.8s;
 }
 
 .fa-github {
@@ -203,6 +216,7 @@ Li a {
     /*Preenchimento interno*/
     text-align: center;
     /*alinhamento do texto*/
+    box-shadow: 10px 10px 20px white;
 }
 .Section-4 button{
     padding: 7px;
@@ -210,6 +224,10 @@ Li a {
     color: #ffffff;
     width: 130px;
     border: none;
+}
+.Section-4 div:hover{
+    box-shadow: 20px 20px 30px red;
+    transition: 0.8s;
 }
 
 footer{
@@ -236,4 +254,19 @@ footer .fa-brands{
 }
 .Caixa-icon{
     text-align: center;
+}
+
+.whatsapp img{
+    width: 50px;
+    
+}
+.whatsapp{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.whatsapp img:hover{
+    width: 60px;
+    transition: 1s;
 }
